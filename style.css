@@ -21,7 +21,9 @@ body,*{
     height: 100%;
     position: absolute;
     padding-top: 2rem;
-    overflow: hidden;
+}
+#wrap::before{
+    overflow:hidden;
 }
 /* FLEX BOX */
 .container{
