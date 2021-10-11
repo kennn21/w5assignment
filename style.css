@@ -16,9 +16,6 @@ body,*{
     text-align: center;
     font-family: "Dosis", Arial, Helvetica, sans-serif;
 }
-body{
-    overflow: hidden;
-}
 #wrap{
     background-color: #ffffff;
     height: 100%;
