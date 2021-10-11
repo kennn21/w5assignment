@@ -1,0 +1,224 @@
+/* BASE */
+@font-face {
+    font-family: 'IFC-HARDBALL';
+    src:url('fonts/IFC-HARDBALL.ttf.woff') format('woff'),
+        url('fonts/IFC-HARDBALL.ttf.svg#IFC-HARDBALL') format('svg'),
+        url('fonts/IFC-HARDBALL.ttf.eot'),
+        url('fonts/IFC-HARDBALL.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+body,*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
+}
+body{
+    overflow: hidden;
+}
+#wrap{
+    background-color: #ffffff;
+    height: 100%;
+    position: absolute;
+    padding-top: 2rem;
+    overflow: hidden;
+}
+/* FLEX BOX */
+.container{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    background-color: #eff2f5;
+    box-shadow:#404040;
+    overflow: hidden;
+    border-radius: 1.5rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+aside{
+    flex:10%;
+    min-width: 200px;
+    display: flex;
+    align-items:flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    background-color: #3639a4;
+    box-shadow: 0rem 0 2rem 0 rgb(165, 165, 165);
+}
+.content{
+    flex: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+}
+h1{
+    text-align: left;
+    width:min-content;
+    font-size: medium;
+    font-weight: 800;
+    color:#F2F2F2;
+    margin: auto;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+    font-family: "Dosis";
+    padding-top: 0.15rem;
+    background-color: #3639a4;
+    padding: 0.3rem 1rem 0.2rem 0rem;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+h6{
+    padding-top: 0.5rem;
+    padding-bottom: 0.4rem;
+    margin: 0 0 0 0;
+    color:white;
+    background: #3639a4;
+}
+article p{
+    width: 100%;
+    text-align: left;
+    margin: 10px;
+    padding-left: 1rem;
+}
+.flexbox-items{
+    margin: 10px auto 10px auto;
+    min-width: 300px;
+    background-color: #ffffff;
+    border-radius: 10%;
+    box-shadow: 1rem gray;
+    overflow: hidden;
+}
+.flexbox-items p{
+    margin: 0.5rem;
+    padding: 0rem 0.5rem 0.5rem 0.5rem;   
+}
+.flexbox-items p::first-letter {
+    font-size: 200%;
+    color: #3639a4;
+  }
+.flexbox-item1 p, .flexbox-item2 p, .flexbox-item3 p{
+    border-top: none;
+    margin: 0.5rem;
+    padding: 0rem 0.5rem 0.5rem 0.5rem;
+}
+.flexbox-item1{
+    width: 30%;
+}
+.flexbox-item1 p{
+    margin-top: 0;
+}
+.flexbox-item2{
+    width: 30%;
+}
+.flexbox-item2 p{
+    margin-top: 0;
+}
+.flexbox-item3{
+    width: 30%;
+}
+.flexbox-item3 p{
+    margin-top: 0;
+}
+.flexbox-item4{
+    width: 45%;
+}
+.flexbox-item5{
+    width: 45%;
+}
+audio{
+    width: 90%;
+    height: 50px;
+    border-radius: 30%;
+}
+/* FORM & MENUS */
+form{
+    align-items: left;
+}
+form h6{
+    font-size: medium;
+    text-align: left;
+    padding-left: 2rem;
+}
+input{
+    border: none;
+    border-radius: 1rem;
+    margin: 0.3rem 0.5rem 0.3rem 0.5rem;
+    width: 140px;
+}
+input::placeholder{
+    font-size: smaller;
+    text-align: left;
+    position: absolute;
+}
+input:hover{
+    border: solid 2px #cc3a55;
+}
+hr{
+    margin: 1rem 2rem 0 2rem;
+    color: #ffffff;
+    height: 0px;
+    opacity: 1;
+    
+}
+ul{
+    margin-top: 1rem;
+}
+ul li{
+    background-color: #3639a4;
+    text-align: left;
+    padding-left: 2rem;
+    font-size:0.6rem;
+    font-weight: lighter;
+}
+ul li:hover{
+    background-color:#6fdce3 ;
+}
+ul li a{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: larger;
+}
+ul li a:hover{
+    color: #ffffff;
+}
+button{
+    background-color: #dedede;
+    width: 4.5rem;
+    border: none;
+    border-radius: 1rem;
+    height: 1.5rem;
+    color:#494949 ;
+    font-weight: 600;
+    
+}
+button:hover{
+    background-color:#3639a4 ;
+    color: #cacaca;
+}
+/* FOOTER */
+footer{
+    z-index: -10;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    width: 100vw;
+    height: 50px;
+    background-color: #ffffff;
+    padding: auto;
+    padding: 1rem 1rem;
+    box-shadow: 0 0rem 1rem 0em rgb(197, 197, 197);
+}
+footer h6{
+    color: rgb(75, 75, 75);
+    background-color: #ffffff;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    text-align: right;
+    margin-right: 5px;
+    padding-right: 2rem;   
+}
